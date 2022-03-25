@@ -3,6 +3,6 @@ window.onload = function() {
       var script = document.createElement('script');
       script.async = true;
       script.src = 'https://assets.calendly.com/assets/external/widget.js';
-      document.querySelector('footer').appendChild(script);
+      document.querySelector('head').appendChild(script);
     }, 3000);
 };
